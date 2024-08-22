@@ -6,6 +6,7 @@
     <title>Unity WebGL Player | WebViewGames</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -57,11 +58,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/8.loader.js";
+      var loaderUrl = buildUrl + "/9.loader.js";
       var config = {
-        dataUrl: buildUrl + "/8.data.unityweb",
-        frameworkUrl: buildUrl + "/8.framework.js.unityweb",
-        codeUrl: buildUrl + "/8.wasm.unityweb",
+        dataUrl: buildUrl + "/9.data.unityweb",
+        frameworkUrl: buildUrl + "/9.framework.js.unityweb",
+        codeUrl: buildUrl + "/9.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "WebViewGames",
